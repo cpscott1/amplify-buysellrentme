@@ -1,0 +1,19 @@
+.App-header {
+  background: #004274;
+  height: 50px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-items: center;
+}
+
+.logo {
+  width: 40%;
+  height: auto;
+  align-self: center;
+}
+
+button {
+  background: #004274;
+  border: none;
+  color: #fff;
+}
