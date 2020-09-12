@@ -1,0 +1,24 @@
+.hero-section {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  background: url('./assets/cropped-house.png') no-repeat center;
+  background-size: cover;
+  position: relative;
+  height: 400px;
+}
+
+.hero-section img {
+}
+
+.hero-section h1 {
+  color: #fff;
+  text-align: center;
+  padding-bottom: 10px;
+  font-size: 29px;
+}
+
+.hero-section p {
+  color: #fff;
+  text-align: center;
+}
