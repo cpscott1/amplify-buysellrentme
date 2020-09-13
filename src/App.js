@@ -5,6 +5,7 @@ import './App.css';
 import logo from './assets/logo.png';
 import './header.scss';
 import Hero from './Hero';
+import Listings from './Listings'
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
         <img src={logo} alt="logo" className="logo" />
       </header>
       <Hero />
+      <Listings />
     </div>
   );
 }
