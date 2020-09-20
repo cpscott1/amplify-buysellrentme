@@ -1,3 +1,33 @@
 .listing-section {
   background-color: #F7F8F9;
 }
+
+.listing {
+  width: 75%;
+  margin: 0 auto;
+  border: 1px solid red;
+}
+
+.listing-form {
+  background: #fff;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.listing-search {
+  width: 100%;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.listing-section h1 {
+  padding: 10px 0;
+  text-align: center;
+}
+
+.listing-section p {
+  text-align: center;
+}
