@@ -37,5 +37,14 @@ export default () => (
     </form>
     <h1>Discover Our Featured <br />Listings</h1>
     <p>Lorem ipsum dolor sit amet, consectetur <br /> adipisic edut</p>
+    <div className="featured-listing">
+      <div className="listing-img">
+        <span className="address">Address</span>
+      </div>
+      <div className="bottom-info">
+        <span>$1000 / month</span>
+        <span>location</span>
+      </div>
+    </div>
   </section>
 );
