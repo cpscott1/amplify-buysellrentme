@@ -5,7 +5,8 @@ import './App.css';
 import logo from './assets/logo.png';
 import './header.scss';
 import Hero from './Hero';
-import Listings from './Listings'
+import Listings from './Listings';
+import Residential from './Residential';
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
       </header>
       <Hero />
       <Listings />
+      <Residential />
     </div>
   );
 }
