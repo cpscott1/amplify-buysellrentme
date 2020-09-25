@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars } from "@fortawesome/free-solid-svg-icons";
 import './App.css';
@@ -7,8 +7,14 @@ import './header.scss';
 import Hero from './Hero';
 import Listings from './Listings';
 import Residential from './Residential';
+import { residentialData } from './data/residentialData';
+
 
 function App() {
+  const [state, setState] = useState({
+    residentialData
+  })
+  console.log(state.residentialData)
   return (
     <div className="App">
       <header className="App-header">
@@ -19,7 +25,7 @@ function App() {
       </header>
       <Hero />
       <Listings />
-      <Residential />
+      <Residential residentialData={state.residentialData}/>
     </div>
   );
 }

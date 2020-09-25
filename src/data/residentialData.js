@@ -1,7 +1,8 @@
-const data = [
+
+export const residentialData = [
   {
     properties: '17',
     propertyType: 'Apartment',
-    img: '../assets/apartment.png'
+    image: require('../assets/apartment.png')
   }
 ]
