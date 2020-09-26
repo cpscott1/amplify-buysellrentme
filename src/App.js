@@ -9,6 +9,7 @@ import Listings from './Listings';
 import Residential from './Residential';
 import Commercial from './Commercial';
 import Choices from './Choices';
+import InquiryForm from './InquiryForm';
 import { residentialData } from './data/residentialData';
 import { commercialData } from './data/commercialData';
 
@@ -32,6 +33,7 @@ function App() {
       <Residential residentialData={state.residentialData}/>
       <Commercial commercialData={state.commercialData}/>
       <Choices />
+      <InquiryForm />
     </div>
   );
 }
