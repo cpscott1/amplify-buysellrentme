@@ -37,7 +37,10 @@ export default () => (
       </div>
       <div>
         <span>GDPR Agreement</span>
+        <input type="checkbox" />
+        <span>I consent to having this website store my submitted information</span>
       </div>
+      <button>Submit</button>
     </form>
   </section>
 )
