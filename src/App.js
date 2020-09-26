@@ -7,12 +7,16 @@ import './header.scss';
 import Hero from './Hero';
 import Listings from './Listings';
 import Residential from './Residential';
+import Commercial from './Commercial';
+import Choices from './Choices';
 import { residentialData } from './data/residentialData';
+import { commercialData } from './data/commercialData';
 
 
 function App() {
   const [state, setState] = useState({
-    residentialData
+    residentialData,
+    commercialData
   })
   console.log(state.residentialData)
   return (
@@ -26,6 +30,8 @@ function App() {
       <Hero />
       <Listings />
       <Residential residentialData={state.residentialData}/>
+      <Commercial commercialData={state.commercialData}/>
+      <Choices />
     </div>
   );
 }
