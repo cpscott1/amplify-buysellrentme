@@ -3,7 +3,7 @@ import './footer.scss';
 
 export default () => (
   <footer className="footer">
-    <div>
+    <div className="discover">
       <h2>Discover Us</h2>
       <a>About Us</a>
       <a>Media Room</a>
@@ -12,7 +12,7 @@ export default () => (
       <a>Blog</a>
       <a>Terms & Policies</a>
     </div>
-    <div>
+    <div className="contact">
       <h2>Contact Us</h2>
       <p>Philadephia, PA 19145</p>
       <p>879 546 1349</p>

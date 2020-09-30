@@ -1,5 +1,34 @@
 .footer {
-  padding-top: 90px;
+  display: flex;
+  flex-direction: column;
+  padding-top: 30px;
   padding-bottom: 50px;
   background: #264F6E;
+
+  h2 {
+    color: #F3E1E1;
+    font-size: 18px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+
+  a {
+    color: #fff;
+    padding-bottom: 10px;
+  }
+
+  p {
+    color: #fff;
+    padding-bottom: 10px;
+  }
+}
+
+.discover {
+  display: flex;
+  flex-direction: column;
+  margin-left: 50px;
+}
+
+.contact {
+  margin-left: 50px;
 }
