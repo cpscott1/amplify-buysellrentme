@@ -10,14 +10,17 @@ import Residential from './Residential';
 import Commercial from './Commercial';
 import Choices from './Choices';
 import InquiryForm from './InquiryForm';
+import Property from './Property';
 import { residentialData } from './data/residentialData';
 import { commercialData } from './data/commercialData';
+import { propertyData } from './data/propertyData';
 
 
 function App() {
   const [state, setState] = useState({
     residentialData,
-    commercialData
+    commercialData,
+    propertyData
   })
   console.log(state.residentialData)
   return (
@@ -34,6 +37,7 @@ function App() {
       <Commercial commercialData={state.commercialData}/>
       <Choices />
       <InquiryForm />
+      <Property propertyData={state.propertyData}/>
     </div>
   );
 }
