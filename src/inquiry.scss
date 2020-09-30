@@ -1,0 +1,53 @@
+.inquiry-form {
+  width: 75%;
+  margin: 0 auto;
+}
+
+.inquiry-type {
+  display: flex;
+  flex-direction: column;
+}
+
+.information {
+  display: flex;
+  flex-direction: column;
+}
+
+.names {
+  display: flex;
+  flex-direction: row;
+}
+
+.location {
+  display: flex;
+  flex-direction: column;
+}
+
+.property {
+  display: flex;
+  flex-direction: column;
+}
+
+.price {
+  display: flex;
+  flex-direction: row;
+}
+
+.consent-text {
+  display: flex;
+  flex-direction: column;
+}
+
+.consent-check {
+  display: flex;
+  flex-direction: row;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+}
+
+button {
+  width: 75%;
+}
