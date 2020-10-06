@@ -13,6 +13,7 @@ import InquiryForm from './InquiryForm';
 import Property from './Property';
 import City from './City';
 import Footer from './Footer';
+import BottomFooter from './BottomFooter';
 import { residentialData } from './data/residentialData';
 import { commercialData } from './data/commercialData';
 import { propertyData } from './data/propertyData';
@@ -44,6 +45,7 @@ function App() {
       <Property propertyData={state.propertyData}/>
       <City cityData={state.cityData} />
       <Footer />
+      <BottomFooter />
     </div>
   );
 }
