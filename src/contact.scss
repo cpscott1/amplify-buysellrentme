@@ -10,14 +10,13 @@
 }
 
 .contact-form {
-  border: 1px solid red;
   margin: 0 auto;
   width: 95%;
   margin-top: 50px;
+  margin-bottom: 50px;
 }
 
 .contact-header {
-  border: 1px solid black;
   font-size: 18px;
 }
 
@@ -31,7 +30,8 @@
 }
 
 .contact-label {
-  font-size: 18px;
+  padding-bottom: 10px;
+  font-size: 13px;
 }
 
 .message {
