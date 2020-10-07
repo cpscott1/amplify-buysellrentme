@@ -4,7 +4,7 @@ import './inquiry.scss'
 
 export default () => (
   <section className="contact-section">
-    <div className="contact">
+    <div className="contact-area">
       <form className="contact-form">
         <span className="contact-header">If you are unable to locate the answers on our FAQ <br />page or just have a general question, please use the <br/> form below to get in contact with us.</span>
           <div className="input-container">

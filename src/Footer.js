@@ -15,9 +15,6 @@ export default () => (
       <a>Terms & Policies</a>
     </div>
     <div className="contact">
-      <Switch>
-        <Route path="/contact" component={Contact} />
-      </Switch>
       <Link to="/contact">Contact Us</Link>
       <p>Philadephia, PA 19145</p>
       <p>879 546 1349</p>
