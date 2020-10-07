@@ -20,7 +20,7 @@ export default () => (
           </div>
           <div className="input-container">
             <label className="contact-label">Message</label>
-            <textarea />
+            <textarea className="message"/>
           </div>
       </form>
     </div>

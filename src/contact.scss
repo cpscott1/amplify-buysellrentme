@@ -27,8 +27,13 @@
   display: flex;
   flex-direction: column;
   width: 100%;
+  margin-top: 20px;
 }
 
 .contact-label {
   font-size: 18px;
+}
+
+.message {
+  padding-bottom: 25px;
 }
