@@ -3,9 +3,32 @@
   padding-top: 50px;
 }
 
-.contact-form {
-  margin: 0 auto;
-  width: 90%;
-  margin-top: 50px;
+.contact {
+  border: 1px solid blue;
+  width: 80%;
   background: #fff;
+}
+
+.contact-form {
+  border: 1px solid red;
+  margin: 0 auto;
+  width: 95%;
+  margin-top: 50px;
+}
+
+.contact-header {
+  border: 1px solid black;
+  font-size: 18px;
+}
+
+
+
+.input-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.contact-label {
+  font-size: 18px;
 }
