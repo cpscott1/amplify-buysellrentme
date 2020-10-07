@@ -1,5 +1,6 @@
 import React from 'react';
 import './contact.scss'
+import './inquiry.scss'
 
 export default () => (
   <section className="contact-section">
@@ -21,6 +22,16 @@ export default () => (
           <div className="input-container">
             <label className="contact-label">Message</label>
             <textarea className="message"/>
+          </div>
+          <div className="consent-container consent-text">
+            <span>GDPR Agreement</span>
+            <div className="consent consent-check">
+              <input type="checkbox" />
+              <span>I consent to having this website store my submitted information</span>
+            </div>
+          </div>
+          <div className="button-container">
+            <button>Submit</button>
           </div>
       </form>
     </div>

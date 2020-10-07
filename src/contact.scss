@@ -4,7 +4,6 @@
 }
 
 .contact {
-  border: 1px solid blue;
   width: 80%;
   background: #fff;
 }
@@ -12,8 +11,8 @@
 .contact-form {
   margin: 0 auto;
   width: 95%;
-  margin-top: 50px;
-  margin-bottom: 50px;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 
 .contact-header {
@@ -36,4 +35,12 @@
 
 .message {
   padding-bottom: 25px;
+}
+
+.consent-container {
+  margin-top: 20px;
+}
+
+.consent {
+  margin: 20px 0;
 }
