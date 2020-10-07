@@ -1,4 +1,6 @@
 import React from 'react';
+import { Switch, Route, Link } from 'react-router-dom';
+import Contact from './Contact';
 import './footer.scss';
 
 export default () => (
@@ -13,7 +15,10 @@ export default () => (
       <a>Terms & Policies</a>
     </div>
     <div className="contact">
-      <h2>Contact Us</h2>
+      <Switch>
+        <Route path="/contact" component={Contact} />
+      </Switch>
+      <Link to="/contact">Contact Us</Link>
       <p>Philadephia, PA 19145</p>
       <p>879 546 1349</p>
       <p>info@buysellrentme.com</p>
