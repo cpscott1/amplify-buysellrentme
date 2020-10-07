@@ -1,8 +1,8 @@
 import React from 'react';
+import Header from './Header';
 
 export default () => (
   <section>
-    <h1>Contact Us</h1>
-    {console.log("im here")}
+    <Header />
   </section>
 )

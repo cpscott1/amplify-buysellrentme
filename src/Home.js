@@ -1,9 +1,6 @@
 import React, { useState } from 'react';
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faBars } from "@fortawesome/free-solid-svg-icons";
 import './App.css';
-import logo from './assets/logo.png';
-import './header.scss';
+import Header from './Header'
 import Hero from './Hero';
 import Listings from './Listings';
 import Residential from './Residential';
@@ -31,12 +28,7 @@ export default () => {
   })
   return (
   <>
-  <header className="App-header">
-    <button>
-      <FontAwesomeIcon className="menu-icon" icon={faBars} />
-    </button>
-    <img src={logo} alt="logo" className="logo" />
-  </header>
+  <Header />
   <Hero />
   <Listings />
   <Residential residentialData={state.residentialData}/>
