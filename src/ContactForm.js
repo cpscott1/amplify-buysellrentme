@@ -35,5 +35,24 @@ export default () => (
           </div>
       </form>
     </div>
+    <div className="inquiries">
+      <h1>For inquries contact:</h1>
+      <h2>Amy Miller</h2>
+      <div className="manager">
+        <p>Public Relations Manager</p>
+        <p>Philadelphia, PA</p>
+        <p>PR@buysellrentme.com</p>
+      </div>
+      <h2 className="tech-text">Kyle Parker</h2>
+      <div className="manager">
+        <p>IT Support Manager</p>
+        <p>Philadelphia, PA</p>
+        <p>ITsupport@buysellrentme.com</p>
+      </div>
+    </div>
+    <div className="business">
+      <h2>Corporate Headquarters</h2>
+      <p>Philadephia, PA</p>
+    </div>
   </section>
 )

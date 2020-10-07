@@ -44,3 +44,42 @@
 .consent {
   margin: 20px 0;
 }
+
+.inquiries {
+  margin: 0 auto;
+  margin-top: 50px;
+  width: 80%;
+  background: #fff;
+  padding-top: 50px;
+  padding-bottom: 10px;
+
+  h1,h2,p {
+    margin-left: 10px;
+  }
+
+  h1 {
+    padding-bottom: 10px;
+  }
+
+  h2 {
+    padding-bottom: 10px;
+  }
+}
+
+.tech-text {
+  padding-top: 25px;
+}
+
+.manager {
+  padding-bottom: 25px;
+  p {
+    padding-bottom: 5px;
+  }
+}
+
+.business {
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 50px;
+  background: #fff;
+}
