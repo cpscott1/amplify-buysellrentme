@@ -6,6 +6,9 @@
   background-size: cover;
   position: relative;
   height: 400px;
+  @media only screen and (min-width: 501px) {
+    height: 1000px;
+  }
 }
 
 .hero-section img {

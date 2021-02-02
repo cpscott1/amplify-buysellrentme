@@ -10,5 +10,15 @@ export default () => (
       <FontAwesomeIcon className="menu-icon" icon={faBars} />
     </button>
     <img src={logo} alt="logo" className="logo" />
+    <nav className="header-nav">
+      <a>Home</a>
+      <a>Buy</a>
+      <a>Sell</a>
+      <a>Rent</a>
+      <a className="agent" href="#">Agent Locator</a>
+      <a>Mortage</a>
+      <h3>(800) 987 6543</h3>
+      <button>Create a listing</button>
+    </nav>
   </header>
 )
