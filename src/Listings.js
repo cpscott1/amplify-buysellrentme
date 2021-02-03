@@ -33,10 +33,10 @@ export default () => (
           placeholder="Max. Price"
         />
       </div>
-      <button className="listing-search">Search</button>
+      <div className="button-container"><button className="listing-search">Search</button></div>
     </form>
-    <h1>Discover Our Featured <br />Listings</h1>
-    <p>Lorem ipsum dolor sit amet, consectetur <br /> adipisic edut</p>
+    <h1>Discover Our Featured Listings</h1>
+    <p className="listing-text">Lorem ipsum dolor sit amet, consectetur <br /> adipisic edut</p>
     <div className="featured-listing">
       <div className="listing-img">
         <span className="address">Address</span>

@@ -4,8 +4,10 @@ import './hero.scss'
 
 export default () => (
   <section className="hero-section">
-    <h1>Welcome To</h1>
-    <h1>BuySellRentMe.com</h1>
+    <div className="hero-header">
+      <h1>Welcome To</h1>
+      <h1>BuySellRentMe.com</h1>
+    </div>
     <p>Our goal is to help those disadvanged <br /> backgrounds find <br /> quality affordable housing of their dreams.</p>
   </section>
 );
