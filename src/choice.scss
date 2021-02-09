@@ -1,7 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
 .choice-section {
   padding-top: 90px;
   padding-bottom: 50px;
   background: #264F6E;
+  .choice-container {
+    @media only screen and (min-width: 501px) {
+      display: flex;
+      border: 1px solid red;
+      margin: 0 auto;
+      width: 75%;
+      font-family: 'Roboto';
+    }
+    @media only screen and (min-width: 501px) {
+      .col-1 {
+        width: 20%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-right: 1vw;
+        .choice-header {
+          border: 1px solid black;
+          margin-right: 2rem;
+        }
+      }
+      .col-2 {
+        width: 20%;
+        display: flex;
+        flex-direction: column;
+      }
+      .inquiry-form {
+        padding-top: 1vw;
+        padding-bottom: 1vw;
+        background: #fff;
+        width: 20%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        h2 {
+          font-size: 1.4rem;
+          padding-bottom: .7rem;
+        }
+        h3 {
+          font-size: 1.2rem;
+          padding-bottom: .7rem;
+          text-align: center;
+        }
+        .consent-text {
+          margin-left: 4.7rem;
+          .consent-agreement {
+            padding-bottom: .5rem;
+          }
+          .span-consent {
+            width: 80%;
+          }
+        }
+        .button-container {
+          margin: 0 auto;
+          width: 80%;
+          margin-top: 1rem;
+          button {
+            display: block;
+            background: #00AEFF;
+          }
+        }
+      }
+    }
+  }
 }
 
 .choice {
@@ -23,4 +88,98 @@
   padding-bottom: 50px;
   font-size: 16px;
   color: #E1E1E1;
+}
+
+.inquiry-type {
+    @media only screen and (min-width: 501px) {
+      label {
+        padding-left: 4.7rem;
+      }
+      select {
+        width: 60%;
+        margin-top: .3rem;
+        margin-bottom: .3rem;
+        margin-left: 4.7rem;
+      }
+    }
+}
+
+.information {
+  @media only screen and (min-width: 501px) {
+    label {
+      padding-bottom: .3rem;
+      padding-left: 4.7rem;
+    }
+    select {
+      width: 60%;
+      margin-bottom: .3rem;
+      margin-left: 4.7rem;
+    }
+    .names {
+      margin-bottom: .3rem;
+      .first-name {
+        margin-left: 4.7rem;
+      }
+      input {
+        width: 28%;
+      }
+    }
+    .email {
+      width: 58%;
+      margin-bottom: .3rem;
+      margin-left: 4.7rem;
+    }
+  }
+}
+
+.location {
+  @media only screen and (min-width: 501px) {
+    label {
+      padding-bottom: .3rem;
+      margin-left: 4.7rem;
+    }
+    select {
+      width: 30%;
+    }
+    .zip {
+      .zip-select {
+        margin-left: 4.7rem;
+      }
+      input {
+        width: 28%;
+      }
+    }
+  }
+}
+
+.property {
+  @media only screen and (min-width: 501px) {
+    label {
+      padding-bottom: .3rem;
+      margin-left: 4.7rem;
+    }
+    select {
+      width: 60%;
+      margin-bottom: .3rem;
+      margin-left: 4.7rem;
+    }
+    .price {
+      margin-bottom: .3rem;
+      .max-price {
+        margin-left: 4.7rem;
+      }
+      input {
+        width: 28%;
+      }
+    }
+    .property-number {
+      margin-bottom: .3rem;
+      .bed-number {
+        margin-left: 4.7rem;
+      }
+      input {
+        width: 28%;
+      }
+    }
+  }
 }
