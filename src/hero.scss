@@ -1,3 +1,5 @@
+
+
 .hero-section {
   display: flex;
   justify-content: center;
@@ -35,4 +37,17 @@
 .hero-section p {
   color: #fff;
   text-align: center;
+}
+
+.contact-hero-container {
+  @media only screen and (min-width: 501px) {
+    .hero-section {
+      height: 23vw;
+      h1 {
+        text-align: left;
+        margin-left: 5vw;
+        font-size: 3.5vw;
+      }
+    }
+  }
 }

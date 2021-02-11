@@ -15,7 +15,12 @@
   @media only screen and (min-width: 501px) {
     font-family: 'Roboto';
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    .text-container {
+      display: flex;
+      flex-direction: column;
+      margin-right: 1rem;
+    }
     .city-header {
       font-size: 2.5rem;
     }
@@ -25,9 +30,20 @@
   }
 }
 
+.city-image-container {
+  @media only screen and (min-width: 501px) {
+    height: 20rem;
+    border: 1px solid red;
+  }
+}
+
 .city-image {
   min-height: 200px;
   margin-top: 20px;
   margin-bottom: 20px;
   color: white;
+  @media only screen and (min-width: 501px) {
+    margin-right: 1rem;
+    height: 18vw;
+  }
 }

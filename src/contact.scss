@@ -2,12 +2,20 @@
   background: #F7F8F9;
   padding-top: 50px;
   padding-bottom: 50px;
+    @media only screen and (min-width: 501px) {
+      display: flex;
+
+    }
 }
 
 .contact-area {
   margin: 0 auto;
   width: 80%;
   background: #fff;
+  @media only screen and (min-width: 501px) {
+    width: 40%;
+    background: none;
+  }
 }
 
 .contact-form {
@@ -15,6 +23,16 @@
   width: 95%;
   padding-top: 50px;
   padding-bottom: 50px;
+  @media only screen and (min-width: 501px) {
+    padding-bottom: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    .input-col {
+      display: flex;
+      margin-left: .7vw;
+    }
+  }
 }
 
 .contact-header {
@@ -28,6 +46,20 @@
   flex-direction: column;
   width: 100%;
   margin-top: 20px;
+  @media only screen and (min-width: 501px) {
+    width: 40%;
+    &:first-child {
+      padding-right: 1.8vw;
+    }
+    .first-input {
+      width: 6.4vw;
+      padding-right: .4vw;
+    }
+    .second-input {
+      width: 6.4vw;
+      padding-right: .4vw;
+    }
+  }
 }
 
 .contact-label {
@@ -54,7 +86,18 @@
   background: #fff;
   padding-top: 50px;
   padding-bottom: 10px;
-
+  @media only screen and (min-width: 501px) {
+    width: 40%;
+    padding-bottom: 0;
+    margin-top: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: none;
+    .manager {
+      text-align: center;
+    }
+  }
   h1,h2,p {
     margin-left: 10px;
   }
@@ -79,6 +122,15 @@
   }
 }
 
+.business-desktop {
+  display: none;
+  @media only screen and (min-width: 501px) {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
 .business {
   width: 80%;
   margin: 0 auto;
@@ -86,10 +138,25 @@
   background: #fff;
   padding-top: 40px;
   padding-bottom: 40px;
+  @media only screen and (min-width: 501px) {
+    display: none;
+  }
   h2, p {
     margin-left: 10px;
   }
   h2 {
     padding-bottom: 5px;
+  }
+}
+
+.button-container {
+  @media only screen and (min-width: 501px) {
+    display: block;
+    width: 100%;
+    display: flex;
+    button {
+      display: block;
+      width: 25%;
+    }
   }
 }
