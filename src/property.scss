@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
 .property-section {
   padding-top: 20px;
   padding-bottom: 20px;
@@ -10,10 +12,61 @@
 .property-main {
   width: 50%;
   margin: 0 auto;
+  @media only screen and (min-width: 501px) {
+    font-family: 'Roboto';
+    h1 {
+      padding-top: 2rem;
+      font-size: 2.5rem;
+      text-align: center;
+    }
+    p {
+      font-size: 1.2rem;
+      text-align: center;
+      padding-bottom: 2rem;
+    }
+  }
+}
+
+.property-grid {
+  display: none;
+  @media only screen and (min-width: 501px) {
+    background: url('./assets/apartment.png') no-repeat;
+    display: grid;
+    width: 50%;
+    grid-template-columns: 1fr 1fr 1;
+  }
+}
+
+.property-col-1 {
+  display: none;
+  @media only screen and (min-width: 501px) {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
+.property-col-2 {
+  display: none;
+  @media only screen and (min-width: 501px) {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
+.property-image-1 {
+  @media only screen and (min-width: 501px) {
+    background: url('./assets/apartment.png') no-repeat;
+    min-height: 200px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
 }
 
 .property-image {
   min-height: 200px;
   margin-top: 20px;
   margin-bottom: 20px;
+    @media only screen and (min-width: 501px) {
+      display: none;
+    }
 }
