@@ -7,7 +7,6 @@
   .choice-container {
     @media only screen and (min-width: 501px) {
       display: flex;
-      border: 1px solid red;
       margin: 0 auto;
       width: 75%;
       font-family: 'Roboto';
@@ -20,8 +19,7 @@
         align-items: center;
         padding-right: 1vw;
         .choice-header {
-          border: 1px solid black;
-          margin-right: 2rem;
+          margin-right: 1.2vw;
         }
       }
       .col-2 {
@@ -38,18 +36,18 @@
         flex-direction: column;
         align-items: center;
         h2 {
-          font-size: 1.4rem;
-          padding-bottom: .7rem;
+          font-size: .9vw;
+          padding-bottom: .4vw;
         }
         h3 {
-          font-size: 1.2rem;
-          padding-bottom: .7rem;
+          font-size: .8vw;
+          padding-bottom: .4vw;
           text-align: center;
         }
         .consent-text {
-          margin-left: 4.7rem;
+          margin-left: 2.9vw;
           .consent-agreement {
-            padding-bottom: .5rem;
+            padding-bottom: .3vw;
           }
           .span-consent {
             width: 80%;
@@ -58,7 +56,7 @@
         .button-container {
           margin: 0 auto;
           width: 80%;
-          margin-top: 1rem;
+          margin-top: .6vw;
           button {
             display: block;
             background: #00AEFF;
@@ -93,13 +91,13 @@
 .inquiry-type {
     @media only screen and (min-width: 501px) {
       label {
-        padding-left: 4.7rem;
+        padding-left: 2.9vw;
       }
       select {
         width: 60%;
-        margin-top: .3rem;
-        margin-bottom: .3rem;
-        margin-left: 4.7rem;
+        margin-top: .3vw;
+        margin-bottom: .3vw;
+        margin-left: 2.9vw;
       }
     }
 }
@@ -107,18 +105,18 @@
 .information {
   @media only screen and (min-width: 501px) {
     label {
-      padding-bottom: .3rem;
-      padding-left: 4.7rem;
+      padding-bottom: .3vw;
+      padding-left: 2.9vw;
     }
     select {
       width: 60%;
-      margin-bottom: .3rem;
-      margin-left: 4.7rem;
+      margin-bottom: .3vw;
+      margin-left: 2.9vw;
     }
     .names {
-      margin-bottom: .3rem;
+      margin-bottom: .3vw;
       .first-name {
-        margin-left: 4.7rem;
+        margin-left: 2.9vw;
       }
       input {
         width: 28%;
@@ -126,8 +124,8 @@
     }
     .email {
       width: 58%;
-      margin-bottom: .3rem;
-      margin-left: 4.7rem;
+      margin-bottom: .3vw;
+      margin-left: 2.9vw;
     }
   }
 }
@@ -135,15 +133,15 @@
 .location {
   @media only screen and (min-width: 501px) {
     label {
-      padding-bottom: .3rem;
-      margin-left: 4.7rem;
+      margin-bottom: .3vw;
+      margin-left: 2.9vw;
     }
     select {
       width: 30%;
     }
     .zip {
       .zip-select {
-        margin-left: 4.7rem;
+        margin-left: 2.9vw;
       }
       input {
         width: 28%;
@@ -155,27 +153,27 @@
 .property {
   @media only screen and (min-width: 501px) {
     label {
-      padding-bottom: .3rem;
-      margin-left: 4.7rem;
+      margin-bottom: .3vw;
+      margin-left: 2.9vw;
     }
     select {
       width: 60%;
-      margin-bottom: .3rem;
-      margin-left: 4.7rem;
+      margin-bottom: .3vw;
+      margin-left: 2.9vw;
     }
     .price {
-      margin-bottom: .3rem;
+      margin-bottom: .3vw;
       .max-price {
-        margin-left: 4.7rem;
+        margin-left: 2.9vw;
       }
       input {
         width: 28%;
       }
     }
     .property-number {
-      margin-bottom: .3rem;
+      margin-bottom: .3vw;
       .bed-number {
-        margin-left: 4.7rem;
+        margin-left: 2.9vw;
       }
       input {
         width: 28%;
