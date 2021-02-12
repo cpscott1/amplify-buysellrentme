@@ -11,7 +11,7 @@ export default () => (
     </button>
     <img src={logo} alt="logo" className="logo" />
     <nav className="header-nav">
-      <a>Home</a>
+      <a href="/">Home</a>
       <a>Buy</a>
       <a href="/sell">Sell</a>
       <a>Rent</a>
