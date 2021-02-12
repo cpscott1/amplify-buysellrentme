@@ -13,7 +13,7 @@ export default () => (
     <nav className="header-nav">
       <a>Home</a>
       <a>Buy</a>
-      <a>Sell</a>
+      <a href="/sell">Sell</a>
       <a>Rent</a>
       <a className="agent" href="#">Agent Locator</a>
       <a>Mortgage</a>
